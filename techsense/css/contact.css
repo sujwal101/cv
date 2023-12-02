@@ -1,0 +1,177 @@
+.home-section{
+    height: 65vh;
+    width: 100%;
+}
+
+.home-section{
+  background-color: #162044;
+}
+
+
+.hero-content{
+    height: calc(65vh - 100px);
+    display: flex;
+    position: relative;
+    color: white;
+}
+
+.hero-left{
+    height: 100%;
+    width: 60%;
+    padding: 80px 0rem 50px 0;
+}
+
+.hero-right{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.hero-left h1{
+    font-size: 3.3rem;
+    line-height: 4.5rem;
+    font-weight: bolder;
+    padding-bottom: 2rem;
+}
+
+.hero-left h1 span{
+    color: blue;
+    font-style: oblique;
+}
+
+.hero-left p{
+    font-size: 20px;
+    width: 80%;
+    padding-bottom: 1rem;
+}
+
+.contact-section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #D1D1D1;
+}
+
+.contact-body{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.contact-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.contact-form{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px;
+}
+
+.contact-form input{
+    border: none;
+    padding: 15px;
+    background: #e9e7e7;
+}
+
+.contact-form button{
+    max-width: 200px;
+}
+
+.contact-info h3{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
+
+.contact-info h3{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
+
+  .contact-info p{
+    font-size: 19px;
+  }
+
+.contact-info h2{
+    font-size: 50px;
+  }
+
+.message input{
+    padding: 50px;
+}
+
+
+@media (max-width:900px) {
+
+    .home-section{
+      padding-bottom: 40px;
+    }
+    
+      .hero-content{
+        flex-direction: column;
+      }
+    
+      .hero-left{
+        width: 100%;
+        padding: 50px 0rem 20px 0;
+      }
+    
+      .hero-right{
+        width: 100%;
+        justify-content: flex-start;
+      }
+    
+      .home-section{
+        height: 90vh;
+        width: 100%;
+    }
+    
+    .hero-left h1{
+      font-size: 2.5rem;
+      line-height: 4.5rem;
+      font-weight: bolder;
+    }
+
+.contact-body{
+    flex-direction: column;
+}
+
+.contact-info{
+    width: 100%;
+    align-items: left;
+    justify-content: left;
+    padding-left: 10px;
+}
+
+.contact-form{
+    width: 100%;
+}
+
+
+}
+
+
+@media (max-width:767px) {
+    .home-section{
+      height: 90vh;
+      width: 100%;
+  }
+  
+  .hero-left h1{
+    font-size: 2.8rem;
+    line-height: 4rem;
+    font-weight: bolder;
+  }
+}
